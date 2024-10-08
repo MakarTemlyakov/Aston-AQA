@@ -1,0 +1,32 @@
+Index: src/Program.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Program {\r\n    public static void main(String[] args) {\r\n        printThreeWords();\r\n        checkSumSign();\r\n        printColor();\r\n        compareNumbers();\r\n        System.out.println(isBetweenSum(5,4));\r\n        printTypeOfNumber(1);\r\n        System.out.println(isNegativeNumber(-1));\r\n        printMessage(\"work\", 1);\r\n        onCreateByteArray();\r\n        onCreateIntArray();\r\n        onCreateArrayByMultiple();\r\n        System.out.println(\"\\nГод висакосный?:\" + isLeapYear(2013));\r\n        int[] array = onCreateArrayByLength(5,3);\r\n        System.out.println(\"\\nВозвращаемый массив c элементами:\");\r\n        for(int i = 0; i < array.length; i++) {\r\n            System.out.print(array[i] + \" \");\r\n        }\r\n        onCreateIntMatrix();\r\n\r\n    }\r\n\r\n    //Задание 1\r\n    public static void printThreeWords() {\r\n        System.out.print(\"Orange\\nBanana\\nApple\\n\");\r\n    }\r\n\r\n    //Задание 2\r\n    public static void checkSumSign(){\r\n        int a =2;\r\n        int b =9;\r\n        int sum = a + b;\r\n        String message = sum >= 0 ? \"Сумма положительная\" : \"Сумма отрицательная\";\r\n\r\n        System.out.println(message);\r\n    }\r\n\r\n    //Задание 3\r\n    public static void printColor() {\r\n        int value = 3;\r\n        String message = \"\";\r\n\r\n        if(value <= 0) {\r\n            message = \"Красный\";\r\n        } else if(value > 0  && value <= 100) {\r\n            message = \"Желтый\";\r\n        } else{\r\n            message = \"Зеленый\";\r\n        }\r\n\r\n        System.out.println(message);\r\n    }\r\n\r\n    //Задание 4\r\n    public static void compareNumbers() {\r\n        int a = 3;\r\n        int b = 4;\r\n        String message = \"\";\r\n\r\n        if(a > b || a == b) {\r\n            message = \"a >= b\";\r\n        }  else {\r\n            message = \"a < b\";\r\n        }\r\n\r\n        System.out.println(message);\r\n    }\r\n\r\n    //Задание 5\r\n    public static Boolean isBetweenSum(int a, int b) {\r\n        int sum = a + b;\r\n\r\n        if(sum >= 10 && sum <=20) {\r\n            return true;\r\n        }\r\n\r\n        return false;\r\n    }\r\n\r\n    //Задание 6\r\n    public static void printTypeOfNumber(int value){\r\n        String message =  value >= 0 ? \"Положительное число\" : \"Отрицательное число\";\r\n\r\n        System.out.println(message);\r\n    }\r\n\r\n    //Задание 7\r\n    public static Boolean isNegativeNumber(int value) {\r\n        return value < 0;\r\n    }\r\n\r\n    //Задание 8\r\n    public static void printMessage(String message, int count){\r\n        for(int i = 0; i < count; i++){\r\n            System.out.println(message);\r\n        }\r\n    }\r\n\r\n    //Задание 9\r\n    public static Boolean isLeapYear(int year) {\r\n        boolean isLeapYear = (year % 4 ==0 || year % 400 == 0) && year % 100 != 0;\r\n        return isLeapYear;\r\n    }\r\n\r\n    //Задание 10\r\n    public static void onCreateByteArray(){\r\n        int[] array  = {1,1,0,0,1,0,1,1,0,0};\r\n\r\n        System.out.println(\"Исходный массив:\");\r\n        for(int i = 0; i< array.length;i++){\r\n            System.out.print(array[i] + \" \");\r\n        }\r\n\r\n        System.out.println(\"\\nИзмененный массив:\");\r\n        for(int i = 0; i< array.length; i++){\r\n            array[i] = array[i] == 0 ? 1 : 0;\r\n            System.out.print(array[i] + \" \");\r\n        }\r\n    }\r\n\r\n    //Задание 11\r\n    public static void onCreateIntArray(){\r\n        int [] array = new int[101];\r\n        for(int i = 1; i < array.length;i++){\r\n            array[i] = i;\r\n        }\r\n\r\n        System.out.println(\"\\nМассив от 0 до 100:\");\r\n        for(int i = 1; i < array.length; i++){\r\n           System.out.print(array[i] + \" \");\r\n        }\r\n    }\r\n\r\n    //Задание 12\r\n    public static void onCreateArrayByMultiple(){\r\n        int [] array = {1,5,3,2,11,4,5,2,4,8,9,1};\r\n\r\n        System.out.println(\"\\nИсходный массив:\");\r\n        for(int i = 0; i < array.length; i++){\r\n            System.out.print(array[i] + \" \");\r\n        }\r\n\r\n        System.out.println(\"\\nИзмененный массив:\");\r\n        for(int i = 0; i < array.length; i++){\r\n            if(array[i] < 6) {\r\n                array[i] *= 2;\r\n            }\r\n            System.out.print(array[i] + \" \");\r\n        }\r\n    }\r\n\r\n    //Задание 13\r\n    public static void onCreateIntMatrix(){\r\n        int [][] matrix = new int[7][7];\r\n\r\n        for(int i = 0; i < matrix.length; i++) {\r\n            for(int j = 0; j < matrix.length; j++){\r\n                matrix[i][i] = 1;\r\n                matrix[i][matrix.length-1 - i] = 1;\r\n            }\r\n        }\r\n\r\n        System.out.println(\"\\nДвухмерный массив:\");\r\n        for(int i = 0; i < matrix.length; i++){\r\n            for(int j = 0; j < matrix.length; j++){\r\n                System.out.print(\" \"+ matrix[i][j] + \" \");\r\n            }\r\n            System.out.println();\r\n        }\r\n    }\r\n\r\n    //Задание 14\r\n    public static int[] onCreateArrayByLength(int len,int initValue){\r\n        int [] array = new int[len];\r\n\r\n        for(int i = 0; i < array.length; i++) {\r\n            array[i] = initValue;\r\n        }\r\n        return array;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Program.java	(revision c2bbd6014a9c613fba262e0cfc828ff2c10b11ad)
++++ src/Program.java	(date 1726514948541)
+@@ -4,7 +4,7 @@
+         checkSumSign();
+         printColor();
+         compareNumbers();
+-        System.out.println(isBetweenSum(5,4));
++        System.out.println(isBetweenSum(5,5));
+         printTypeOfNumber(1);
+         System.out.println(isNegativeNumber(-1));
+         printMessage("work", 1);
+@@ -70,12 +70,7 @@
+     //Задание 5
+     public static Boolean isBetweenSum(int a, int b) {
+         int sum = a + b;
+-
+-        if(sum >= 10 && sum <=20) {
+-            return true;
+-        }
+-
+-        return false;
++        return sum >= 10 && sum <=20;
+     }
+ 
+     //Задание 6

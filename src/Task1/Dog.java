@@ -1,8 +1,12 @@
+package Task1;
+
 public class Dog extends Animal{
     private String name;
+    private static int count;
 
     public Dog(String name) {
         this.name = name;
+        count++;
     }
 
     @Override
@@ -21,5 +25,9 @@ public class Dog extends Animal{
         } else {
             System.out.printf("%s пробежал %dм\n", this.name, value);
         }
+    }
+
+    public static void getCount(){
+        System.out.println("Количество созданных собак: " + count);
     }
 }

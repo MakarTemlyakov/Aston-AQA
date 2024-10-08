@@ -1,3 +1,5 @@
+package Task1;
+
 public class Animal {
     private static int count;
 
@@ -13,6 +15,6 @@ public class Animal {
     }
 
     public static void getCount(){
-        System.out.println("Количество созданных котов, собак. животных: " + count);
+        System.out.println("Количество созданных животных: " + count);
     }
 }

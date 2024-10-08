@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:homework_11" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="468580a2-0e31-4ef3-9ba9-76126d095af5" name="Default Changelist" comment="impl: add logic for animals">
+      <change afterPath="$PROJECT_DIR$/src/Task1/Plate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework_10" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2m6Nr2TzmaJTPbpAUesStHrOraZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\aqa\src" />
+      <recent name="F:\aqa\Task2" />
+      <recent name="F:\aqa\Task1" />
+      <recent name="F:\aqa" />
+      <recent name="F:\aqa\homework1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="aqa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <module name="aqa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="aqa" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="aqa" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="468580a2-0e31-4ef3-9ba9-76126d095af5" name="Default Changelist" comment="" />
+      <created>1726393260689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726393260689</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init: Add homework1">
+      <created>1726508009148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726508009149</updated>
+    </task>
+    <task id="LOCAL-00002" summary="impl: add logic for animals">
+      <created>1728333251376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728333251376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="homework_11" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init: Add homework1" />
+    <MESSAGE value="impl: add logic for animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="impl: add logic for animals" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="403" key="#Notifications" timestamp="1728071144255">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="845" y="403" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1728071144255" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1728325475080">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1728325475080" />
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1728415772131">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1728415772131" />
+    <state x="690" y="316" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1728413355168">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="316" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1728413355168" />
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1726397854756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1726397854756" />
+    <state x="743" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1728413356784">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1728413356784" />
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1726508953346">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1726508953346" />
+    <state x="740" y="257" key="FileChooserDialogImpl" timestamp="1728071513140">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1728071513140" />
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1728415907831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1728415907831" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1728415907831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1728415907831" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1728415907830">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1728415907830" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1728415907831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1728415907831" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1728330306968">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1728330306968" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1728330306968">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1728330306968" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1728330306968">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1728330306968" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1728330306968">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1728330306968" />
+    <state x="461" y="185" key="SettingsEditor" timestamp="1728071296298">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1728071296298" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1728333281843">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1728333281843" />
+    <state x="92" y="92" width="1736" height="896" key="dock-window-1" timestamp="1728400571393">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1728400571393" />
+    <state x="739" y="253" key="git4idea.branch.GitSmartOperationDialog" timestamp="1728071065147">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="253" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1728071065147" />
+    <state x="342" y="160" key="new project wizard" timestamp="1728413113029">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="160" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1728413113029" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/aqa$Main.ic" NAME="Main Coverage Results" MODIFIED="1728330272636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,12 +1,11 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class PhoneBook {
     private final Map<String, String> book;
-    private final List<String> numberPhones;
 
     public PhoneBook( ){
         this.book = new HashMap<>();
-        this.numberPhones = new ArrayList<>();
     }
 
     public void add(String phone, String surname){
@@ -14,11 +13,9 @@ public class PhoneBook {
     }
 
     public List<String> get(String surname) {
-        for (Map.Entry<String, String> record: book.entrySet()){
-            if(record.getValue().equals(surname)){
-                numberPhones.add(record.getKey());
-            }
-        }
-       return numberPhones.size() == 1 ? Collections.singletonList(numberPhones.get(0)) : numberPhones;
+        return book.entrySet().stream()
+                .filter((r) -> r.getValue().equals(surname))
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toList());
     }
 }

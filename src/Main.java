@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
         PhoneBook book = new PhoneBook();
         String [] wordArray = { "test", "test", "test", "asd", "zxc", "cat", "dog", "snake", "smoke", "break", "bank" };
         List<String> uniqueWords = new ArrayList<>();
@@ -34,11 +33,11 @@ public class Main {
         book.add("+12321423344", "Сидиоров");
 
         List<String> phoneNumbers = book.get("Сидиоров");
+
         System.out.println("\nТелефоны:");
 
-        for(String phoneNumber: phoneNumbers) {
+        for(Object phoneNumber: phoneNumbers) {
             System.out.println(phoneNumber);
         }
-
     }
 }

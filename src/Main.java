@@ -36,7 +36,7 @@ public class Main {
 
         System.out.println("\nТелефоны:");
 
-        for(Object phoneNumber: phoneNumbers) {
+        for(String phoneNumber: phoneNumbers) {
             System.out.println(phoneNumber);
         }
     }

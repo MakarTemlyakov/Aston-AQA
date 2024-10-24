@@ -1,24 +1,27 @@
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
 public class MainPageTest {
-    static WebDriver driver;
+    private WebDriver driver;
+    private WebDriverWait wait;
 
-    @BeforeAll
-    public static void setup() {
+    @BeforeEach
+    public  void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("https://www.mts.by/");
@@ -56,8 +59,6 @@ public class MainPageTest {
 
     @Test
     public void checkConnectService(){
-        String modalActualPaymentInfo= "";
-        String modalActualPrice = "";
         WebElement form = driver.findElement(By.xpath("//div[@class='pay__form']"));
         WebElement selectButton = form.findElement(By.xpath("//button[@class='select__header']"));
         WebElement selectedService = form.findElement(By.xpath("//span[@class='select__now']"));
@@ -84,19 +85,13 @@ public class MainPageTest {
 
         WebElement iframe = driver.findElement(By.className("bepaid-iframe"));
         driver.switchTo().frame(iframe);
-        WebElement modal = driver.findElement(By.xpath("//div[@class='app-wrapper']"));
+        WebElement modal = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='app-wrapper']")));
+        WebElement modalPrice = modal.findElements(By.xpath("//div[@class='pay-description__cost']//span")).get(0);
+        WebElement modalPaymentInfo = modal.findElements(By.xpath("//div[@class='pay-description__text']//span")).get(0);
 
-        if(modal.isDisplayed()) {
-            WebElement modalPrice = modal.findElements(By.xpath("//div[@class='pay-description__cost']//span")).get(0);
-            WebElement modalPaymentInfo = modal.findElements(By.xpath("//div[@class='pay-description__text']//span")).get(0);
-            modalActualPaymentInfo =  modalPaymentInfo.getText();
-            modalActualPrice = modalPrice.getText();
-        }
-
+        Assertions.assertEquals("300.00 BYN", modalPrice.getText());
+        Assertions.assertEquals("Оплата: Услуги связи Номер:375297777777", modalPaymentInfo.getText());
         driver.switchTo().defaultContent();
-
-        Assertions.assertEquals("300.00 BYN", modalActualPrice);
-        Assertions.assertEquals("Оплата: Услуги связи Номер:375297777777", modalActualPaymentInfo);
         Assertions.assertEquals("Услуги связи", selectedService.getText());
     }
 }
